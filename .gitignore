@@ -70,3 +70,11 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# Ink specific
+# Ignore compiled Ink JSON files
+Assets/Ink/Compiled/*.json
+
+# Optionally, ignore any temporary files or directories specific to Ink
+# For example, if you have any editor-specific temporary files
+# Assets/Ink/Temp/
